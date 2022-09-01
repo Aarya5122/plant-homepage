@@ -1,6 +1,6 @@
 # Plant Homepage
 
-![Plant Homepage](.6.png)
+![Plant Homepage](./6.png)
 
 **Name**: Aarya Nanndaann Singh M N
 
