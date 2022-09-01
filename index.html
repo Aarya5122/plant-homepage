@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plant Homepage</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Allerta"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel"
+      rel="stylesheet"
+    />
+    <style>
+
+      *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Allerta";
+      }
+
+      body{
+        background-color: #f4f3f8;
+      }
+
+      .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .flex-column{
+        flex-direction: column;
+      }
+
+      .flex-align-start{
+        align-items: flex-start;
+      }
+
+      .flex-justify-space-around{
+        justify-content: space-around;
+      }
+
+      
+
+      .flex-gap{
+        gap: 3rem;
+      }
+
+      #navbarMonstera{
+        padding: 8vh 3vw;
+      }
+
+      #navFirst{
+        width: 2vw;
+      }
+
+      .list{
+        width: 60vw;
+      }
+
+      .list-item{
+        list-style: none;
+        font-size: 20px;
+      }
+
+      .list-item:hover{
+        border-bottom: 3px solid #000000;
+        padding-bottom: 1px;
+      }
+
+      #navEnd{
+        margin-left: 2vw;
+        width: 4vw;
+      }
+
+      .hero-container-one{
+        width: 60vw;
+        padding: 0vh 4vw;
+        height: 55vh;
+        line-height: 1.05;
+      }
+
+      .hero-container-one>ul>li{
+        list-style: disc;
+        font-size: 30px;
+        padding-left: 10px; 
+      }
+
+      .heading{
+        font-size: 120px;
+        margin-top: 14vh;
+      }
+
+      li>span{
+        font-size: 22px;
+        color: #383839;
+      }
+
+      .button{
+        margin-left: 4.5vw;
+        margin-top: 5vh;
+        background-color: #466d50;
+        color: white;
+        font-family: "Abel";
+        font-size: 36px;
+        padding: 2vh 4vw;
+        border-radius: 36px;
+      }
+
+      .button>p{
+        padding-right: 16px;
+      }
+
+      #midWholePart13{
+        width: 60vw;
+        padding-left: 4.5vw;
+        margin-top: 11vh;
+      }
+
+      .midWholePart13Parts{
+        width: 50vw;
+      }
+
+      .icon{
+        padding-right: 1vw;
+      }
+
+      .text-head{
+        font-size: 20px;
+      }
+
+      .text{
+        font-size: 10.5px;
+        color: #383839;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav id="navbarMonstera" class="flex flex-justify-space-around">
+      <div id="navFirst" class="flex">
+        <img src="./photos/Logo.svg" width="100"/>
+      </div>
+
+      <div id="navMid">
+        <ul class="list flex flex-justify-space-around">
+          <li class="list-item">Home</li>
+          <li class="list-item">Collection</li>
+          <li class="list-item">Shop</li>
+          <li class="list-item">About</li>
+          <li class="list-item">Contact</li>
+        </ul>
+      </div>
+
+      <div id="navEnd" class="flex flex-justify-space-around flex-gap">
+        <div>
+          <img src="/photos/cart.svg" />
+        </div>
+        <div>
+          <img src="./photos/user.svg" />
+        </div>
+        <div>
+          <img src="./photos/search.svg" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Container -->
+    <div id="midWhole" class="hero-container flex flex-justify-space-around ">
+      <div id="midWholePart1" class="flex flex-column flex-align-start">
+        <div id="midWholePart11">
+          <div class="hero-container-one flex flex-justify-center" >
+            <ul  class="flex flex-column flex-align-start">
+              <li><h1 id="monstera" class="heading">MONSTERA</h1></li>
+              <li></li>
+              <li>
+                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+              </li>
+              <li>
+              <span>Morbi justo metus, euismod quis lorem ornare, convallis sollicitudin neque.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="midWholePart12">
+          <div id="midWholePart121">
+            <div class="button flex">
+              <p>DISCOVER</p>
+              <img src="./photos/greaterThan.svg" />
+            </div>
+          </div>
+        </div>
+        <div id="midWholePart13" class="flex flex-gap">
+          <div class="midWholePart13Parts flex">
+            <div>
+              <img id="feeding" class="icon" src="./photos/water plant.png" />
+            </div>
+            <div>
+              <h4 class="text-head">Feeding</h4>
+              <p class="text">
+                Lorem ipsum dolor sit amet consecteturadipisicing elit
+              </p>
+            </div>
+          </div>
+          <div class="midWholePart13Parts flex">
+            <div>
+              <img id="light" class="icon" src="./photos/light.svg" alt="" />
+            </div>
+            <div>
+              <h4 class="text-head">Light</h4>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+              </p>
+            </div>
+          </div>
+          <div class="midWholePart13Parts flex">
+            <div>
+              <img id="care" class="icon" src="./photos/plough.svg" />
+            </div>
+            <div>
+              <h4 class="text-head">Care</h4>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img id="imgMain" src="./photos/6_folwer_cut.png" width="590"/>
+      </div>
+    </div>
+  </body>
+</html>
