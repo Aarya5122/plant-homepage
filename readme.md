@@ -1,6 +1,6 @@
 # Plant Homepage
 
-![Plant Homepage](./5.png)
+![Plant Homepage](.6.png)
 
 **Name**: Aarya Nanndaann Singh M N
 
@@ -19,4 +19,4 @@ Here I got a chance to explore the CSS Position Property. After quite a bit of h
 
 ## Live Link
 
-**[Project in Action 🔥](https://crypto-fsjs.netlify.app/)**
+**[Project in Action 🔥](https://plant-fsjs.netlify.app/)**
